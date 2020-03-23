@@ -20,12 +20,13 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">fashionXrecsys</a></li>
-							<li><a href="#highlights">Program Highlights</a></li>
+							<!-- Wrapper <li><a href="#highlights">Program Highlights</a></li> -->
 							<li><a href="#topics">Call For Contributions</a></li>
 							<li><a href="#one">Important Dates</a></li>
-							<li><a href="#three">Program</a></li>
+							<!-- <li><a href="#three">Program</a></li> -->
 							<li><a href="#four">Organizers</a></li>
 							<li><a href="#five">Scientific Committee</a></li>
+							<li><a href="#datasets">Datasets</a></li>
 							<li><a href="#footer">Get in touch</a></li>
 						</ul>
 					</nav>
@@ -46,10 +47,7 @@
 
 							<p>This workshop aims to bring together researchers and practitioners in the fashion, recommendations and machine learning domains to discuss open problems in the aforementioned areas. This involves addressing interdisciplinary problems with all of the challenges it entails. Within this workshop we aim to start the conversation among professionals in the fashion and e-commerce industries and recommender systems scientists, and create a new space for collaboration between these communities necessary for tackling these deep problems. To provide rich opportunities to share opinions and experience in such an emerging field, we will accept paper submissions on established and novel ideas, as well as new interactive participation formats.</p>
 
-							<p>Important Note: We are continuously monitoring the COVID-19 situation and considering alternatives to allow for remote participation in both the main RecSys 2020 conference and all its workshops should disruptions still occur in late September.</p>
-
-
-
+							<p><b>Important Note:</b> We are continuously monitoring the COVID-19 situation and considering alternatives to allow for remote participation in both the main RecSys 2020 conference and all its workshops should disruptions still occur in late September.</p>
 						</div>
 					</section>
 
@@ -124,11 +122,20 @@
 
 						</ul>
 
+							<h3> Mentorship </h3>  
+							
+							<p> For the first time, we will offer mentorship opportunities to students who would like to get initial feedback on their work by industry colleagues. We aim to increase the chances of innovative student’s work being published, as well as to foster an early exchange across academia and industry. As a mentee, you should expect at least one round of review of your work prior to the submission deadline. If your work is accepted, you should  also expect at least one feedback session regarding your demo, poster or oral presentation. </p> 
+
+							<h3> Fashion RecSys Challenge Track  </h3> 
+							
+							<p> In order to encourage the reproducibility of research work presented in the workshop, we are encouraging all participants to use any of the existing open datasets described in the fashionXrecsys website. All contributions that work with at least one existing dataset will be considered as part of the challenge track, where prizes (provided by the workshop sponsors) will be handed for the best paper award, best student paper and best demo. </p> 
+
+
 						<h3>Paper Submission Instructions</h3>
 
 						<ul>
 							<li>All submissions and reviews will be handled electronically via <a href="https://easychair.org/conferences/?conf=fashionxrecsys2020">EasyChair</a>
-								Papers must be submitted by 23:59, AoE (Anywhere on Earth) on July 19th, 2019.</li>
+								Papers must be submitted by 23:59, AoE (Anywhere on Earth) on July 10th, 2019.</li>
 							<li>Submissions should be prepared according to the standard double-column ACM SIG proceedings format according to the standard <a href="http://www.acm.org/publications/proceedings-template">double-column ACM SIG proceedings format.</a>
 								The ideal length of a paper is between 4-8 pages, but submissions have no strict page limits. Although the authors should avoid submitting unnecessarily long papers in order not to overwhelm reviewers.</li>
 
@@ -137,14 +144,22 @@
 								anonymise citations to your previous work and avoid providing any other information that would allow to identify the authors, such as acknowledgments and funding.
 								However, that it is acceptable to explicitly refer in the paper to the companies or organizations that provided datasets,
 								hosted experiments or deployed solutions, if specifically necessary for understanding the work described in the paper.</li>
-							<li>Submitted work should be original. However, technical reports or ArXiv disclosure prior to or simultaneous with the workshop submission, is allowed, provided they are not peer-reviewed.
-								The organizers also encourage authors to make their code and datasets publicly available.</li>
+							
+							<li>Submitted work should be original. However, technical reports or ArXiv disclosure prior to or simultaneous with the workshop submission, is allowed, provided they are not peer-reviewed. The organizers also encourage authors to make their code and datasets publicly available.</li>
 
-							<li>Accepted papers are given an oral and a poster presentation slot at the workshop. At least one author of every accepted paper must attend the workshop and present their work.
-								Please contact the workshop organization if none of the authors will be able to attend the workshop.</li>
+							<li>Accepted contributions are given either an oral or poster presentation slot at the workshop. At least one author of every accepted contribution must attend the workshop and present their work. Please contact the workshop organization if none of the authors will be able to attend.</li>
 							<li>All accepted papers will be available through the program website which will be linked from the official RecSys‘19 site.
 								Moreover, selected authors will be invited to contribute an extended version of their paper to be published in a Journal.</li>
 						</ul>
+
+						<h3>Additional Submission Instructions for Demos </h3>
+							<p> The description of the demo should be prepared according to the standard double-column ACM SIG proceedings format with a one page limit. The submission should include:</p>
+						<ul>
+							<li>An overview of the algorithm or system that is the core of the demo, including citations to any publications that support the work.</li>
+							<li>A discussion of the purpose and the novelty of the demo.</li>
+							<li>A description of the required setup. If the system will feature an installable component (e.g., mobile app) or website for users to use throughout or after the conference, please mention this.</li>
+							<li> A link to a narrated screen capture of your system in action, ideally a video (This section will be removed for the camera-ready version of accepted contributions)</li>
+
 
 					</div>
 				</section>
@@ -300,6 +315,78 @@
 							<li></li>
 							<li></li>
 							<li></li>
+
+						</ul>
+						</div>
+					</section>
+
+						<!-- Two -->
+					<section id="datasets" class="wrapper style2 fade-up">
+						<div class="inner">
+							
+						
+							<p>The following is a non-exhaustive list of datasets that are relevant for the fashionXrecsys workshop. Participants presenting work in any of these datasets will automatically be part of the workshop's challenge track. If there is a public dataset that you think should be added to the list, please contact the organizing comittee.</p>
+
+							<ul>
+ 
+							<li>Large-scale Fashion (DeepFashion):
+							<a href="http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html">http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html</a>
+							<p>Description: DeepFashion is  a large-scale clothes database which contains over 800,000 diverse fashion images ranging from well-posed shop images to unconstrained consumer photos. DeepFashion is annotated with rich information of clothing items. Each image in this dataset is labeled with 50 categories, 1,000descriptive attributes, bounding box and clothing landmarks. DeepFashion also contains over 300,000 cross-pose/cross-domain image pairs.</p></li>
+
+							<li>DeepFashion2 dataset: 
+							<a href="https://github.com/switchablenorms/DeepFashion2">https://github.com/switchablenorms/DeepFashion2</a>
+							<p>Description: DeepFashion2 is a comprehensive fashion dataset. It contains 491K diverse images of 13 popular clothing categories from both commercial shopping stores and consumers. It totally has 801K clothing clothing items, where each item in an image is labeled with scale, occlusion, zoom-in, viewpoint, category, style, bounding box, dense landmarks and per-pixel mask.There are also 873K Commercial-Consumer clothes pairs.</p></li>
+
+							<li>Street2Shop : 
+								<a href="http://www.tamaraberg.com/street2shop/">http://www.tamaraberg.com/street2shop/ </a>
+							<p>Description: Street2Shop has 20,357 labeled images of clothing worn by people in the real world, and 404,683 images of clothing from shopping websites. The dataset contains 39,479 pairs of exactly matching items worn in street photos and shown in shop images.
+							</p></li> 			
+							
+							<li>Fashionista: 
+								<a href="http://vision.is.tohoku.ac.jp/~kyamagu/research/clothing_parsing/">http://vision.is.tohoku.ac.jp/~kyamagu/research/clothing_parsing/</a>
+							<p>Description: Fashionista is a novel dataset to study clothes parsing, containing 158,235 fashion photos with associated text annotations.</p></li>				
+										
+							<li>Paperdoll: 
+								<a href="http://vision.is.tohoku.ac.jp/~kyamagu/research/paperdoll/ ">http://vision.is.tohoku.ac.jp/~kyamagu/research/paperdoll/ </a>
+							<p>Description:  The Paper Doll dataset is a large collection of tagged fashion pictures with no manual annotation. It contains over 1 million pictures from chictopia.com with associated metadata tags denoting characteristics such as color, clothing item, or occasion.</p></li> 
+												
+							<li>Fashion MNIST:
+								<a href="https://github.com/zalandoresearch/fashion-mnist ">https://github.com/zalandoresearch/fashion-mnist </a>
+							<p>Description: Fashion-MNIST is a dataset of Zalando’s article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.</p></li> 
+
+							<li>ModaNet dataset: 
+								<a href="https://github.com/eBay/modanet">https://github.com/eBay/modanet</a>
+							<p>Description: ModaNet is a street fashion images dataset consisting of annotations related to RGB images. ModaNet provides multiple polygon annotations for each image.</p></li> 
+
+							<li>iMaterialist-Fashion: 
+								<a href="https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6">https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6</a>
+							<p>Description: The dataset contains over 50K clothing images labeled for fine-grained segmentation.</p></li> 
+
+							<li>women's e-commerce dataset:   
+							<a href="https://github.com/NadimKawwa/WomeneCommerce">https://github.com/NadimKawwa/WomeneCommerce</a> 
+							<p>Description:  This is a Women’s Clothing E-Commerce dataset revolving around the reviews written by customers. Its nine supportive features offer a great environment to parse out the text through its multiple dimensions. Because this is real commercial data, it has been anonymized, and references to the company in the review text and body have been replaced with “retailer”.</p></li> 
+
+							<li>Amazon Reviews dataset:
+								<a href="http://jmcauley.ucsd.edu/data/amazon/links.html">http://jmcauley.ucsd.edu/data/amazon/links.html</a>
+							<p>Description: This dataset contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014. This dataset includes reviews (ratings, text, helpfulness votes), product metadata (descriptions, category information, price, brand, and image features), and links (also viewed/also bought graphs).</p></li> 
+
+							<li>Fashion Product Images Dataset: 
+								<a href="https://www.kaggle.com/paramaggarwal/">https://www.kaggle.com/paramaggarwal/</a> fashion-product-images-dataset
+							<p>Description: In addition to professionally shot high resolution product images, the dataset contains multiple label attributes describing the product which was manually entered while cataloging. The dataset also contains descriptive text that comments on the product characteristics.</p></li> 
+
+							<li>Brazilian E-Commerce Public Dataset by Olist:  
+								<a href="https://www.kaggle.com/olistbr/brazilian-ecommerce#olist_products_dataset.csv">https://www.kaggle.com/olistbr/brazilian-ecommerce#olist_products_dataset.csv</a>
+							<p>Description: The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. The dataset contains real commercial data, it has been anonymised, and references to the companies and partners in the review text have been replaced with the names of Game of Thrones great houses.</p></li> 
+
+							<li>Flipkart products dataset: 
+							<a href="https://www.kaggle.com/PromptCloudHQ/flipkart-products">https://www.kaggle.com/PromptCloudHQ/flipkart-products</a> 
+							<p>Description: This is a pre-crawled dataset, taken as subset of a bigger dataset (more than 5.8 million products) that was created by extracting data from Flipkart.com, a leading Indian eCommerce store.</p></li> 
+
+
+							<li>Fashion Takes Shape:
+								<a href="https://www.groundai.com/project/fashion-is-taking-shape-understanding-clothing-preference-based-on-body-shape-from-online-sources/1 ">https://www.groundai.com/project/fashion-is-taking-shape-understanding-clothing-preference-based-on-body-shape-from-online-sources/1 </a>
+							<p>Description: The dataset includes more than 18000 images with meta-data including clothing category, and a manual shape annotation indicating whether the person’s shape is above average or average. The data comprises 181 different users from chictopia. Using our multi-photo method, we estimated the shape of each user. This allowed us to study the relationship between clothing categories and body shape. In particular, we compute the conditional distribution of clothing category conditioned on body shape parameters.</p></li> 
+
 
 						</ul>
 						</div>
